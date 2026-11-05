@@ -1,0 +1,11 @@
+
+training:
+  random_state: 42
+  test_size: 0.2
+
+model:
+  type: GradientBoostingRegressor
+  n_estimators: 300
+  max_depth: 3
+  learning_rate: 0.05
+  subsample: 0.8
